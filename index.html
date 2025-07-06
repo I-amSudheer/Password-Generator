@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="password.css">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <section id="main">
+        <p style="font-size:20px; line-height: 20px;">Select which character combination password you have:</p>
+        <div>
+            <label for="">Numbers</label>
+            <input id="numbers" type="radio">
+            
+        </div>
+        <div>
+            <label for="">Upper Case</label>
+            <input id="upper" type="radio">
+            
+        </div>
+        <div>
+            <label for="">Lower Case</label>
+            <input id="lower" type="radio">
+            
+        </div>
+        <div>
+            <label for="">Special Characters</label>
+            <input id="special" type="radio">
+
+        </div>
+        <div>
+            <label for="">Enter password length: </label>
+            <input id="length" type="number">
+
+        </div>
+        <div id="generate">
+            
+            <button id="generate">Generate</button>
+        </div>
+        <div id="fin_div">
+            
+            <p id="final"></p>
+        </div>
+       
+    </section>
+    <script src="password.js">
+    </script>
+</body>
+</html>
