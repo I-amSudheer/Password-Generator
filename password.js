@@ -15,6 +15,8 @@ function passwordGenerator(passwordLength, number, upper, lower, special){
 
     if(passwordLength <= 5)
         window.alert("Password length atleast 6 character!");
+    else if(passwordLength == 0)
+        window.alert("Enter password lenght!");
     else if(number == false &&  upper == false &&  special == false && lower == false)
         window.alert("Password must contain atleast one character type!..");
     else{
